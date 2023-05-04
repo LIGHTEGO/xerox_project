@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:"montserrat";
+    background-color: bisque;
+
+}
+html{
+    scroll-behavior: auto;
+}
+#navbar>div{
+    background-color: #0082e6;
+    /*height:10px;*/
+}
+#logo{
+    margin:10px 34px;
+    
+}
+#logo img{
+    height:50px;
+    margin:3px 6px ;
+}
+#navbar ul{
+    display: block;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: lightblue;
+    min-width: 150px;
+    margin-right: 80%;
+}
+#navbar ul li a{
+    color:black;
+   
+    text-decoration: none;
+    display: black;
+}
+#navbar a:hover{
+    background-color: green;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height:455px;
+    padding:3px 200px;
+    justify-content: center;
+    align-items: center;
+    color:royalblue;
+}
+.btn{
+    
+    color:red;
+    background-color: yellowgreen;
+
+}
+.btn:hover{
+    background-color:slateblue;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    bottom:0px;
+   }
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 34px;
+}
+#clients img{
+    height:124px;
+}
+.h-primary{
+    text-align: center;
+    color:red;
+}
+
